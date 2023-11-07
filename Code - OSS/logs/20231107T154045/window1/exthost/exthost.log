@@ -1,0 +1,13 @@
+2023-11-07 15:40:47.188 [info] Extension host with pid 1114 started
+2023-11-07 15:40:47.188 [info] Skipping acquiring lock for /home/bocchi/.config/Code - OSS/User/workspaceStorage/390f2c33e7a0557a7b0b683f13cb25ee.
+2023-11-07 15:40:47.193 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-11-07 15:40:47.232 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-11-07 15:40:47.235 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-11-07 15:40:47.292 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-11-07 15:40:47.350 [info] Eager extensions activated
+2023-11-07 15:40:47.382 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-07 15:40:47.384 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-07 15:40:47.403 [info] ExtensionService#_doActivateExtension unthrottled.doki-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-11-07 15:56:29.895 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
+2023-11-07 16:02:17.814 [warning] [Decorations] CAPPING events from decorations provider vscode.git 497
+2023-11-07 16:02:17.847 [warning] [Decorations] CAPPING events from decorations provider vscode.git 497

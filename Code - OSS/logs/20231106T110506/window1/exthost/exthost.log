@@ -1,0 +1,14 @@
+2023-11-06 11:05:07.977 [info] Extension host with pid 5902 started
+2023-11-06 11:05:07.977 [info] Skipping acquiring lock for /home/bocchi/.config/Code - OSS/User/workspaceStorage/390f2c33e7a0557a7b0b683f13cb25ee.
+2023-11-06 11:05:07.989 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-11-06 11:05:08.019 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-11-06 11:05:08.022 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-11-06 11:05:08.073 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-11-06 11:05:08.123 [info] Eager extensions activated
+2023-11-06 11:05:08.143 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-06 11:05:08.145 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-06 11:05:08.162 [info] ExtensionService#_doActivateExtension unthrottled.doki-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-11-06 11:14:43.464 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-11-06 11:14:43.508 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2023-11-06 11:18:29.649 [info] Extension host terminating: renderer closed the MessagePort
+2023-11-06 11:18:29.655 [info] Extension host with pid 5902 exiting with code 0

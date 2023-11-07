@@ -1,0 +1,12 @@
+2023-11-06 10:52:20.981 [info] Extension host with pid 4802 started
+2023-11-06 10:52:20.981 [info] Skipping acquiring lock for /home/bocchi/.config/Code - OSS/User/workspaceStorage/390f2c33e7a0557a7b0b683f13cb25ee.
+2023-11-06 10:52:20.988 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2023-11-06 10:52:21.039 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2023-11-06 10:52:21.041 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2023-11-06 10:52:21.089 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-11-06 10:52:21.143 [info] Eager extensions activated
+2023-11-06 10:52:21.163 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-11-06 10:52:21.164 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-11-06 10:52:21.184 [info] ExtensionService#_doActivateExtension unthrottled.doki-theme, startup: false, activationEvent: 'onStartupFinished'
+2023-11-06 11:04:47.136 [info] Extension host terminating: renderer closed the MessagePort
+2023-11-06 11:04:47.139 [info] Extension host with pid 4802 exiting with code 0
