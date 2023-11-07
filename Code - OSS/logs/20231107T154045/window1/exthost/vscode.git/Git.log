@@ -43,3 +43,19 @@
 2023-11-07 16:02:18.130 [info] > git show --textconv :qtile/config.py [5ms]
 2023-11-07 16:02:18.130 [info] > git ls-files --stage -- /home/bocchi/.config/qtile/config.py [1ms]
 2023-11-07 16:02:18.335 [info] > git check-ignore -v -z --stdin [1ms]
+2023-11-07 16:04:20.853 [info] No remotes found in the git config file.
+2023-11-07 16:04:20.853 [info] > git config --get commit.template [6ms]
+2023-11-07 16:04:20.853 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-11-07 16:04:20.862 [info] > git status -z -uall [3ms]
+2023-11-07 16:04:20.885 [info] > git ls-files --stage -- /home/bocchi/.config/qtile/config.py [1ms]
+2023-11-07 16:04:20.893 [info] > git cat-file -s 9378109754638741155744896dfd03a09408e855 [2ms]
+2023-11-07 16:04:20.903 [info] > git show --textconv :qtile/config.py [2ms]
+2023-11-07 16:04:22.620 [info] > git check-ignore -v -z --stdin [2ms]
+2023-11-07 16:04:25.881 [info] No remotes found in the git config file.
+2023-11-07 16:04:25.881 [info] > git config --get commit.template [5ms]
+2023-11-07 16:04:25.882 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [0ms]
+2023-11-07 16:04:25.890 [info] > git status -z -uall [4ms]
+2023-11-07 16:04:37.162 [info] No remotes found in the git config file.
+2023-11-07 16:04:37.162 [info] > git config --get commit.template [6ms]
+2023-11-07 16:04:37.162 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [1ms]
+2023-11-07 16:04:37.170 [info] > git status -z -uall [4ms]

@@ -11,3 +11,4 @@
 2023-11-07 15:56:29.895 [info] ExtensionService#_doActivateExtension vscode.media-preview, startup: false, activationEvent: 'onCustomEditor:imagePreview.previewEditor'
 2023-11-07 16:02:17.814 [warning] [Decorations] CAPPING events from decorations provider vscode.git 497
 2023-11-07 16:02:17.847 [warning] [Decorations] CAPPING events from decorations provider vscode.git 497
+2023-11-07 16:04:20.866 [warning] [Decorations] CAPPING events from decorations provider vscode.git 497
