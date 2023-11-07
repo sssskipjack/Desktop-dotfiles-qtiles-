@@ -1,0 +1,59 @@
+2023-11-07 20:36:43.593 [info] Getting Manifest... wicked-labs.malibu
+2023-11-07 20:36:43.842 [info] Installing extension: wicked-labs.malibu
+2023-11-07 20:36:49.351 [info] Extension signature verification is not done: wicked-labs.malibu
+2023-11-07 20:36:49.422 [info] Extracted extension to file:///home/bocchi/.vscode-oss/extensions/wicked-labs.malibu-0.0.10-universal: wicked-labs.malibu
+2023-11-07 20:36:49.426 [info] Renamed to /home/bocchi/.vscode-oss/extensions/wicked-labs.malibu-0.0.10-universal
+2023-11-07 20:36:49.428 [info] Extracting extension completed. wicked-labs.malibu
+2023-11-07 20:36:49.434 [info] Extension installed successfully: wicked-labs.malibu
+2023-11-07 20:36:49.509 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/bocchi/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/bocchi/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30053)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30167)
+    at s.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async K.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9535)
+2023-11-07 20:37:41.921 [info] Getting Manifest... equinusocio.vsc-material-theme-icons
+2023-11-07 20:37:42.180 [info] Installing extension: equinusocio.vsc-material-theme-icons
+2023-11-07 20:37:46.771 [info] Getting Manifest... equinusocio.vsc-material-theme
+2023-11-07 20:37:47.017 [info] Installing extension: equinusocio.vsc-material-theme
+2023-11-07 20:37:47.336 [info] Getting Manifest... equinusocio.vsc-community-material-theme
+2023-11-07 20:37:47.862 [info] Getting Manifest... equinusocio.vsc-material-theme-icons
+2023-11-07 20:37:48.149 [info] Installing extension: equinusocio.vsc-community-material-theme equinusocio.vsc-material-theme
+2023-11-07 20:37:48.149 [info] Waiting for already requested installing extension equinusocio.vsc-material-theme-icons equinusocio.vsc-material-theme
+2023-11-07 20:37:49.786 [info] Extension signature verification is not done: equinusocio.vsc-community-material-theme
+2023-11-07 20:37:49.801 [info] Extracted extension to file:///home/bocchi/.vscode-oss/extensions/equinusocio.vsc-community-material-theme-1.4.6-universal: equinusocio.vsc-community-material-theme
+2023-11-07 20:37:49.803 [info] Renamed to /home/bocchi/.vscode-oss/extensions/equinusocio.vsc-community-material-theme-1.4.6-universal
+2023-11-07 20:37:49.804 [info] Extracting extension completed. equinusocio.vsc-community-material-theme
+2023-11-07 20:37:49.882 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/bocchi/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/bocchi/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30053)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30167)
+    at s.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async K.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9535)
+2023-11-07 20:37:50.788 [info] Extension signature verification is not done: equinusocio.vsc-material-theme-icons
+2023-11-07 20:37:51.478 [info] Extension signature verification is not done: equinusocio.vsc-material-theme
+2023-11-07 20:37:51.527 [info] Extracted extension to file:///home/bocchi/.vscode-oss/extensions/equinusocio.vsc-material-theme-33.10.5-universal: equinusocio.vsc-material-theme
+2023-11-07 20:37:51.530 [info] Renamed to /home/bocchi/.vscode-oss/extensions/equinusocio.vsc-material-theme-33.10.5-universal
+2023-11-07 20:37:51.532 [info] Extracting extension completed. equinusocio.vsc-material-theme
+2023-11-07 20:37:51.611 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/bocchi/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/bocchi/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30053)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30167)
+    at s.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async K.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9535)
+2023-11-07 20:37:51.969 [info] Extracted extension to file:///home/bocchi/.vscode-oss/extensions/equinusocio.vsc-material-theme-icons-3.1.4-universal: equinusocio.vsc-material-theme-icons
+2023-11-07 20:37:51.975 [info] Renamed to /home/bocchi/.vscode-oss/extensions/equinusocio.vsc-material-theme-icons-3.1.4-universal
+2023-11-07 20:37:51.976 [info] Extracting extension completed. equinusocio.vsc-material-theme-icons
+2023-11-07 20:37:51.981 [info] Extension installed successfully: equinusocio.vsc-material-theme-icons
+2023-11-07 20:37:51.981 [info] Finished waiting for already requested installing extension equinusocio.vsc-material-theme-icons equinusocio.vsc-material-theme
+2023-11-07 20:37:51.982 [info] Extension installed successfully: equinusocio.vsc-community-material-theme
+2023-11-07 20:37:51.982 [info] Extension installed successfully: equinusocio.vsc-material-theme
+2023-11-07 20:37:52.055 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/bocchi/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/bocchi/.vscode-oss/extensions/extensions.json.vsctmp'
+    at r.create (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30053)
+    at a (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:51:30167)
+    at s.fb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:36175)
+    at s.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:28621)
+    at async E.stat (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:56:15732)
+    at async K.tb (/usr/lib/code/out/vs/code/node/sharedProcess/sharedProcessMain.js:109:9535)

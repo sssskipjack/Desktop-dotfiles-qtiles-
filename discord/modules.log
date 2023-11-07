@@ -1,0 +1,649 @@
+2023-11-07T05:58:37.397Z [Modules] Modules initializing
+2023-11-07T05:58:37.397Z [Modules] Distribution: remote
+2023-11-07T05:58:37.397Z [Modules] Host updates: enabled
+2023-11-07T05:58:37.397Z [Modules] Module updates: enabled
+2023-11-07T05:58:37.397Z [Modules] Module install path: /home/bocchi/.config/discord/0.0.34/modules
+2023-11-07T05:58:37.398Z [Modules] Module installed file path: /home/bocchi/.config/discord/0.0.34/modules/installed.json
+2023-11-07T05:58:37.398Z [Modules] Module download path: /home/bocchi/.config/discord/0.0.34/modules/pending
+2023-11-07T05:58:37.638Z [Modules] Bootstrapping...
+2023-11-07T05:58:37.639Z [Modules] Installing discord_desktop_core@0 from /opt/discord/resources/bootstrap/discord_desktop_core.zip
+2023-11-07T05:58:37.641Z [Modules] Failed installing discord_desktop_core@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_desktop_core.zip'
+2023-11-07T05:58:37.642Z [Modules] Installing discord_erlpack@0 from /opt/discord/resources/bootstrap/discord_erlpack.zip
+2023-11-07T05:58:37.643Z [Modules] Failed installing discord_erlpack@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_erlpack.zip'
+2023-11-07T05:58:37.643Z [Modules] Installing discord_spellcheck@0 from /opt/discord/resources/bootstrap/discord_spellcheck.zip
+2023-11-07T05:58:37.644Z [Modules] Failed installing discord_spellcheck@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_spellcheck.zip'
+2023-11-07T05:58:37.645Z [Modules] Installing discord_utils@0 from /opt/discord/resources/bootstrap/discord_utils.zip
+2023-11-07T05:58:37.646Z [Modules] Failed installing discord_utils@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_utils.zip'
+2023-11-07T05:58:37.646Z [Modules] Installing discord_voice@0 from /opt/discord/resources/bootstrap/discord_voice.zip
+2023-11-07T05:58:37.647Z [Modules] Failed installing discord_voice@0: Error: ENOENT: no such file or directory, open '/opt/discord/resources/bootstrap/discord_voice.zip'
+2023-11-07T05:58:37.647Z [Modules] Finished module installations. [success: 0] [failure: 5]
+2023-11-07T05:58:37.647Z [Modules] Checking for host updates.
+2023-11-07T05:58:38.007Z [Modules] Host is up to date.
+2023-11-07T05:58:38.007Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-11-07T05:58:38.046Z [Modules] Module update available: discord_desktop_core@1 [installed: 0]
+2023-11-07T05:58:38.046Z [Modules] Module update available: discord_erlpack@1 [installed: 0]
+2023-11-07T05:58:38.046Z [Modules] Module update available: discord_spellcheck@1 [installed: 0]
+2023-11-07T05:58:38.046Z [Modules] Module update available: discord_utils@1 [installed: 0]
+2023-11-07T05:58:38.046Z [Modules] Module update available: discord_voice@1 [installed: 0]
+2023-11-07T05:58:38.046Z [Modules] Fetching discord_desktop_core@1 from https://discord.com/api/modules/stable/discord_desktop_core/1
+2023-11-07T05:58:38.047Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip
+2023-11-07T05:58:38.460Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 1%
+2023-11-07T05:58:38.468Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 2%
+2023-11-07T05:58:38.478Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 4%
+2023-11-07T05:58:38.484Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 5%
+2023-11-07T05:58:38.490Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 7%
+2023-11-07T05:58:38.494Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 8%
+2023-11-07T05:58:38.505Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 9%
+2023-11-07T05:58:38.517Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 12%
+2023-11-07T05:58:38.524Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 13%
+2023-11-07T05:58:38.534Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 14%
+2023-11-07T05:58:38.633Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 17%
+2023-11-07T05:58:38.633Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 18%
+2023-11-07T05:58:38.636Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 19%
+2023-11-07T05:58:38.638Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 20%
+2023-11-07T05:58:38.645Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 21%
+2023-11-07T05:58:38.651Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 22%
+2023-11-07T05:58:38.666Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 25%
+2023-11-07T05:58:38.668Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 26%
+2023-11-07T05:58:38.674Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 28%
+2023-11-07T05:58:38.684Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 29%
+2023-11-07T05:58:38.689Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 30%
+2023-11-07T05:58:38.721Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 31%
+2023-11-07T05:58:38.739Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 34%
+2023-11-07T05:58:38.742Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 35%
+2023-11-07T05:58:38.744Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 36%
+2023-11-07T05:58:38.747Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 37%
+2023-11-07T05:58:38.752Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 38%
+2023-11-07T05:58:38.756Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 39%
+2023-11-07T05:58:38.759Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 40%
+2023-11-07T05:58:38.771Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 42%
+2023-11-07T05:58:38.774Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 43%
+2023-11-07T05:58:38.783Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 45%
+2023-11-07T05:58:38.797Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 48%
+2023-11-07T05:58:38.830Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 49%
+2023-11-07T05:58:38.834Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 50%
+2023-11-07T05:58:38.846Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 52%
+2023-11-07T05:58:38.848Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 54%
+2023-11-07T05:58:38.860Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 56%
+2023-11-07T05:58:38.862Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 57%
+2023-11-07T05:58:38.868Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 58%
+2023-11-07T05:58:38.870Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 59%
+2023-11-07T05:58:38.878Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 61%
+2023-11-07T05:58:38.886Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 63%
+2023-11-07T05:58:38.894Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 66%
+2023-11-07T05:58:38.900Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 67%
+2023-11-07T05:58:38.906Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 68%
+2023-11-07T05:58:38.908Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 69%
+2023-11-07T05:58:38.942Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 72%
+2023-11-07T05:58:38.943Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 73%
+2023-11-07T05:58:38.946Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 74%
+2023-11-07T05:58:38.957Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 76%
+2023-11-07T05:58:38.960Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 77%
+2023-11-07T05:58:38.962Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 78%
+2023-11-07T05:58:38.973Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 80%
+2023-11-07T05:58:38.975Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 81%
+2023-11-07T05:58:38.982Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 83%
+2023-11-07T05:58:38.988Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 84%
+2023-11-07T05:58:38.992Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 85%
+2023-11-07T05:58:38.998Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 86%
+2023-11-07T05:58:39.153Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 89%
+2023-11-07T05:58:39.174Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 90%
+2023-11-07T05:58:39.177Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 92%
+2023-11-07T05:58:39.179Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 93%
+2023-11-07T05:58:39.187Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 95%
+2023-11-07T05:58:39.188Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 97%
+2023-11-07T05:58:39.190Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 98%
+2023-11-07T05:58:39.192Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 99%
+2023-11-07T05:58:39.193Z [Modules] Streaming discord_desktop_core@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip: 100%
+2023-11-07T05:58:39.194Z [Modules] Fetching discord_erlpack@1 from https://discord.com/api/modules/stable/discord_erlpack/1
+2023-11-07T05:58:39.194Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip
+2023-11-07T05:58:39.470Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 1%
+2023-11-07T05:58:39.476Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 2%
+2023-11-07T05:58:39.478Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 3%
+2023-11-07T05:58:39.486Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 5%
+2023-11-07T05:58:39.493Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 7%
+2023-11-07T05:58:39.500Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 9%
+2023-11-07T05:58:39.508Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 11%
+2023-11-07T05:58:39.522Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 14%
+2023-11-07T05:58:39.525Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 15%
+2023-11-07T05:58:39.541Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 18%
+2023-11-07T05:58:39.550Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 21%
+2023-11-07T05:58:39.553Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 22%
+2023-11-07T05:58:39.563Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 23%
+2023-11-07T05:58:39.565Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 25%
+2023-11-07T05:58:39.567Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 26%
+2023-11-07T05:58:39.569Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 27%
+2023-11-07T05:58:39.580Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 29%
+2023-11-07T05:58:39.581Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 30%
+2023-11-07T05:58:39.583Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 31%
+2023-11-07T05:58:39.595Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 35%
+2023-11-07T05:58:39.611Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 38%
+2023-11-07T05:58:39.612Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 40%
+2023-11-07T05:58:39.615Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 41%
+2023-11-07T05:58:39.628Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 44%
+2023-11-07T05:58:39.633Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 45%
+2023-11-07T05:58:39.635Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 46%
+2023-11-07T05:58:39.637Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 47%
+2023-11-07T05:58:39.645Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 48%
+2023-11-07T05:58:39.653Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 50%
+2023-11-07T05:58:39.655Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 51%
+2023-11-07T05:58:39.657Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 52%
+2023-11-07T05:58:39.660Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 53%
+2023-11-07T05:58:39.665Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 54%
+2023-11-07T05:58:39.667Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 55%
+2023-11-07T05:58:39.670Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 56%
+2023-11-07T05:58:39.672Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 57%
+2023-11-07T05:58:39.674Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 58%
+2023-11-07T05:58:39.683Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 59%
+2023-11-07T05:58:39.690Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 60%
+2023-11-07T05:58:39.696Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 63%
+2023-11-07T05:58:39.700Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 64%
+2023-11-07T05:58:39.702Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 65%
+2023-11-07T05:58:39.716Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 68%
+2023-11-07T05:58:39.718Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 69%
+2023-11-07T05:58:39.724Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 71%
+2023-11-07T05:58:39.725Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 72%
+2023-11-07T05:58:39.743Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 76%
+2023-11-07T05:58:39.752Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 79%
+2023-11-07T05:58:39.765Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 82%
+2023-11-07T05:58:39.765Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 83%
+2023-11-07T05:58:39.768Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 84%
+2023-11-07T05:58:39.775Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 87%
+2023-11-07T05:58:39.782Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 88%
+2023-11-07T05:58:39.798Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 92%
+2023-11-07T05:58:39.800Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 94%
+2023-11-07T05:58:39.814Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 96%
+2023-11-07T05:58:39.817Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 99%
+2023-11-07T05:58:39.818Z [Modules] Streaming discord_erlpack@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip: 100%
+2023-11-07T05:58:39.819Z [Modules] Fetching discord_spellcheck@1 from https://discord.com/api/modules/stable/discord_spellcheck/1
+2023-11-07T05:58:39.819Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip
+2023-11-07T05:58:40.112Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 1%
+2023-11-07T05:58:40.124Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 2%
+2023-11-07T05:58:40.145Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 3%
+2023-11-07T05:58:40.174Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 4%
+2023-11-07T05:58:40.191Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 5%
+2023-11-07T05:58:40.205Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 6%
+2023-11-07T05:58:40.229Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 7%
+2023-11-07T05:58:40.250Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 8%
+2023-11-07T05:58:40.266Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 9%
+2023-11-07T05:58:40.294Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 10%
+2023-11-07T05:58:40.307Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 11%
+2023-11-07T05:58:40.324Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 12%
+2023-11-07T05:58:40.341Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 13%
+2023-11-07T05:58:40.370Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 14%
+2023-11-07T05:58:40.388Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 15%
+2023-11-07T05:58:40.398Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 16%
+2023-11-07T05:58:40.428Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 17%
+2023-11-07T05:58:40.442Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 18%
+2023-11-07T05:58:40.470Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 19%
+2023-11-07T05:58:40.485Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 20%
+2023-11-07T05:58:40.501Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 21%
+2023-11-07T05:58:40.519Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 22%
+2023-11-07T05:58:40.541Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 23%
+2023-11-07T05:58:40.552Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 24%
+2023-11-07T05:58:40.571Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 25%
+2023-11-07T05:58:40.594Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 26%
+2023-11-07T05:58:40.607Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 27%
+2023-11-07T05:58:40.624Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 28%
+2023-11-07T05:58:40.640Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 29%
+2023-11-07T05:58:40.655Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 30%
+2023-11-07T05:58:40.678Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 31%
+2023-11-07T05:58:40.694Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 32%
+2023-11-07T05:58:40.717Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 33%
+2023-11-07T05:58:40.730Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 34%
+2023-11-07T05:58:40.753Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 35%
+2023-11-07T05:58:40.774Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 36%
+2023-11-07T05:58:40.804Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 37%
+2023-11-07T05:58:40.822Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 38%
+2023-11-07T05:58:40.935Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 39%
+2023-11-07T05:58:40.936Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 41%
+2023-11-07T05:58:40.937Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 42%
+2023-11-07T05:58:40.948Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 43%
+2023-11-07T05:58:40.982Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 44%
+2023-11-07T05:58:41.050Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 45%
+2023-11-07T05:58:41.074Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 46%
+2023-11-07T05:58:41.077Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 47%
+2023-11-07T05:58:41.077Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 48%
+2023-11-07T05:58:41.138Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 49%
+2023-11-07T05:58:41.139Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 51%
+2023-11-07T05:58:41.147Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 52%
+2023-11-07T05:58:41.168Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 53%
+2023-11-07T05:58:41.196Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 54%
+2023-11-07T05:58:41.211Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 55%
+2023-11-07T05:58:41.231Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 56%
+2023-11-07T05:58:41.253Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 57%
+2023-11-07T05:58:41.283Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 58%
+2023-11-07T05:58:41.296Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 59%
+2023-11-07T05:58:41.313Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 60%
+2023-11-07T05:58:41.326Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 61%
+2023-11-07T05:58:41.348Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 62%
+2023-11-07T05:58:41.363Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 63%
+2023-11-07T05:58:41.373Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 64%
+2023-11-07T05:58:41.404Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 65%
+2023-11-07T05:58:41.420Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 66%
+2023-11-07T05:58:41.436Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 67%
+2023-11-07T05:58:41.461Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 68%
+2023-11-07T05:58:41.481Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 69%
+2023-11-07T05:58:41.500Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 70%
+2023-11-07T05:58:41.511Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 71%
+2023-11-07T05:58:41.526Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 72%
+2023-11-07T05:58:41.553Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 73%
+2023-11-07T05:58:41.567Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 74%
+2023-11-07T05:58:41.589Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 75%
+2023-11-07T05:58:41.602Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 76%
+2023-11-07T05:58:41.622Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 77%
+2023-11-07T05:58:41.643Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 78%
+2023-11-07T05:58:41.661Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 79%
+2023-11-07T05:58:41.690Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 80%
+2023-11-07T05:58:41.698Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 81%
+2023-11-07T05:58:41.725Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 82%
+2023-11-07T05:58:41.743Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 83%
+2023-11-07T05:58:41.766Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 84%
+2023-11-07T05:58:41.797Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 85%
+2023-11-07T05:58:41.814Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 86%
+2023-11-07T05:58:41.827Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 87%
+2023-11-07T05:58:41.849Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 88%
+2023-11-07T05:58:41.866Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 89%
+2023-11-07T05:58:41.884Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 90%
+2023-11-07T05:58:41.916Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 91%
+2023-11-07T05:58:41.942Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 92%
+2023-11-07T05:58:41.958Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 93%
+2023-11-07T05:58:41.971Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 94%
+2023-11-07T05:58:41.982Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 95%
+2023-11-07T05:58:42.014Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 96%
+2023-11-07T05:58:42.031Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 97%
+2023-11-07T05:58:42.046Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 98%
+2023-11-07T05:58:42.063Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 99%
+2023-11-07T05:58:42.076Z [Modules] Streaming discord_spellcheck@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip: 100%
+2023-11-07T05:58:42.077Z [Modules] Fetching discord_utils@1 from https://discord.com/api/modules/stable/discord_utils/1
+2023-11-07T05:58:42.077Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip
+2023-11-07T05:58:42.356Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 1%
+2023-11-07T05:58:42.363Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 2%
+2023-11-07T05:58:42.374Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 4%
+2023-11-07T05:58:42.378Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 5%
+2023-11-07T05:58:42.389Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 7%
+2023-11-07T05:58:42.411Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 9%
+2023-11-07T05:58:42.417Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 10%
+2023-11-07T05:58:42.425Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 11%
+2023-11-07T05:58:42.433Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 12%
+2023-11-07T05:58:42.439Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 13%
+2023-11-07T05:58:42.451Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 14%
+2023-11-07T05:58:42.452Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 15%
+2023-11-07T05:58:42.455Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 16%
+2023-11-07T05:58:42.466Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 18%
+2023-11-07T05:58:42.470Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 19%
+2023-11-07T05:58:42.480Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 20%
+2023-11-07T05:58:42.481Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 21%
+2023-11-07T05:58:42.495Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 24%
+2023-11-07T05:58:42.500Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 25%
+2023-11-07T05:58:42.513Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 27%
+2023-11-07T05:58:42.526Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 29%
+2023-11-07T05:58:42.528Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 30%
+2023-11-07T05:58:42.541Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 31%
+2023-11-07T05:58:42.543Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 32%
+2023-11-07T05:58:42.545Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 33%
+2023-11-07T05:58:42.556Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 35%
+2023-11-07T05:58:42.564Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 36%
+2023-11-07T05:58:42.568Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 37%
+2023-11-07T05:58:42.585Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 39%
+2023-11-07T05:58:42.587Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 40%
+2023-11-07T05:58:42.599Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 42%
+2023-11-07T05:58:42.608Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 43%
+2023-11-07T05:58:42.613Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 44%
+2023-11-07T05:58:42.622Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 45%
+2023-11-07T05:58:42.634Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 47%
+2023-11-07T05:58:42.650Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 49%
+2023-11-07T05:58:42.654Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 50%
+2023-11-07T05:58:42.661Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 51%
+2023-11-07T05:58:42.665Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 52%
+2023-11-07T05:58:42.677Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 53%
+2023-11-07T05:58:42.680Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 54%
+2023-11-07T05:58:42.693Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 56%
+2023-11-07T05:58:42.713Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 57%
+2023-11-07T05:58:42.720Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 59%
+2023-11-07T05:58:42.722Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 60%
+2023-11-07T05:58:42.734Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 62%
+2023-11-07T05:58:42.750Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 64%
+2023-11-07T05:58:42.750Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 65%
+2023-11-07T05:58:42.763Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 67%
+2023-11-07T05:58:42.763Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 68%
+2023-11-07T05:58:42.765Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 69%
+2023-11-07T05:58:42.770Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 70%
+2023-11-07T05:58:42.778Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 71%
+2023-11-07T05:58:42.781Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 72%
+2023-11-07T05:58:42.791Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 73%
+2023-11-07T05:58:42.800Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 75%
+2023-11-07T05:58:42.821Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 77%
+2023-11-07T05:58:42.834Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 79%
+2023-11-07T05:58:42.836Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 80%
+2023-11-07T05:58:42.847Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 82%
+2023-11-07T05:58:42.851Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 83%
+2023-11-07T05:58:42.866Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 85%
+2023-11-07T05:58:42.877Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 86%
+2023-11-07T05:58:42.879Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 87%
+2023-11-07T05:58:42.883Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 88%
+2023-11-07T05:58:42.892Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 90%
+2023-11-07T05:58:42.900Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 91%
+2023-11-07T05:58:42.902Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 92%
+2023-11-07T05:58:42.918Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 93%
+2023-11-07T05:58:42.931Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 95%
+2023-11-07T05:58:42.938Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 97%
+2023-11-07T05:58:42.941Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 98%
+2023-11-07T05:58:42.947Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 99%
+2023-11-07T05:58:42.950Z [Modules] Streaming discord_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip: 100%
+2023-11-07T05:58:42.951Z [Modules] Fetching discord_voice@1 from https://discord.com/api/modules/stable/discord_voice/1
+2023-11-07T05:58:42.951Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip
+2023-11-07T05:58:43.269Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 1%
+2023-11-07T05:58:43.302Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 2%
+2023-11-07T05:58:43.346Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 3%
+2023-11-07T05:58:43.387Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 4%
+2023-11-07T05:58:43.414Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 5%
+2023-11-07T05:58:43.476Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 6%
+2023-11-07T05:58:43.505Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 7%
+2023-11-07T05:58:43.542Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 8%
+2023-11-07T05:58:43.584Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 9%
+2023-11-07T05:58:43.625Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 10%
+2023-11-07T05:58:43.660Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 11%
+2023-11-07T05:58:43.694Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 12%
+2023-11-07T05:58:43.736Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 13%
+2023-11-07T05:58:43.768Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 14%
+2023-11-07T05:58:43.802Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 15%
+2023-11-07T05:58:43.843Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 16%
+2023-11-07T05:58:43.880Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 17%
+2023-11-07T05:58:43.908Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 18%
+2023-11-07T05:58:43.948Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 19%
+2023-11-07T05:58:43.995Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 20%
+2023-11-07T05:58:44.078Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 21%
+2023-11-07T05:58:44.099Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 22%
+2023-11-07T05:58:44.149Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 23%
+2023-11-07T05:58:44.212Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 24%
+2023-11-07T05:58:44.249Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 25%
+2023-11-07T05:58:44.296Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 26%
+2023-11-07T05:58:44.339Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 27%
+2023-11-07T05:58:44.389Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 28%
+2023-11-07T05:58:44.429Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 29%
+2023-11-07T05:58:44.484Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 30%
+2023-11-07T05:58:44.533Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 31%
+2023-11-07T05:58:44.582Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 32%
+2023-11-07T05:58:44.669Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 33%
+2023-11-07T05:58:44.700Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 34%
+2023-11-07T05:58:44.751Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 35%
+2023-11-07T05:58:44.815Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 36%
+2023-11-07T05:58:44.910Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 37%
+2023-11-07T05:58:44.967Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 38%
+2023-11-07T05:58:45.030Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 39%
+2023-11-07T05:58:45.092Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 40%
+2023-11-07T05:58:45.150Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 41%
+2023-11-07T05:58:45.205Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 42%
+2023-11-07T05:58:45.269Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 43%
+2023-11-07T05:58:45.311Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 44%
+2023-11-07T05:58:45.377Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 45%
+2023-11-07T05:58:45.438Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 46%
+2023-11-07T05:58:45.502Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 47%
+2023-11-07T05:58:45.560Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 48%
+2023-11-07T05:58:45.627Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 49%
+2023-11-07T05:58:45.697Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 50%
+2023-11-07T05:58:45.767Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 51%
+2023-11-07T05:58:45.834Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 52%
+2023-11-07T05:58:45.892Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 53%
+2023-11-07T05:58:45.960Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 54%
+2023-11-07T05:58:46.023Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 55%
+2023-11-07T05:58:46.094Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 56%
+2023-11-07T05:58:46.155Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 57%
+2023-11-07T05:58:46.213Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 58%
+2023-11-07T05:58:46.269Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 59%
+2023-11-07T05:58:46.334Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 60%
+2023-11-07T05:58:46.405Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 61%
+2023-11-07T05:58:46.462Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 62%
+2023-11-07T05:58:46.533Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 63%
+2023-11-07T05:58:46.603Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 64%
+2023-11-07T05:58:46.667Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 65%
+2023-11-07T05:58:46.739Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 66%
+2023-11-07T05:58:46.791Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 67%
+2023-11-07T05:58:46.857Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 68%
+2023-11-07T05:58:46.918Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 69%
+2023-11-07T05:58:46.982Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 70%
+2023-11-07T05:58:47.047Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 71%
+2023-11-07T05:58:47.113Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 72%
+2023-11-07T05:58:47.174Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 73%
+2023-11-07T05:58:47.239Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 74%
+2023-11-07T05:58:47.302Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 75%
+2023-11-07T05:58:47.352Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 76%
+2023-11-07T05:58:47.423Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 77%
+2023-11-07T05:58:47.489Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 78%
+2023-11-07T05:58:47.545Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 79%
+2023-11-07T05:58:47.609Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 80%
+2023-11-07T05:58:47.677Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 81%
+2023-11-07T05:58:47.739Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 82%
+2023-11-07T05:58:47.809Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 83%
+2023-11-07T05:58:47.873Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 84%
+2023-11-07T05:58:47.920Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 85%
+2023-11-07T05:58:47.969Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 86%
+2023-11-07T05:58:48.014Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 87%
+2023-11-07T05:58:48.081Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 88%
+2023-11-07T05:58:48.126Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 89%
+2023-11-07T05:58:48.197Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 90%
+2023-11-07T05:58:48.276Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 91%
+2023-11-07T05:58:48.301Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 92%
+2023-11-07T05:58:48.353Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 93%
+2023-11-07T05:58:48.406Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 94%
+2023-11-07T05:58:48.437Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 95%
+2023-11-07T05:58:48.506Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 96%
+2023-11-07T05:58:48.546Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 97%
+2023-11-07T05:58:48.609Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 98%
+2023-11-07T05:58:48.662Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 99%
+2023-11-07T05:58:48.706Z [Modules] Streaming discord_voice@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip: 100%
+2023-11-07T05:58:48.707Z [Modules] Finished module downloads. [success: 5] [failure: 0]
+2023-11-07T05:58:48.707Z [Modules] Installing updates...
+2023-11-07T05:58:48.707Z [Modules] Installing discord_desktop_core@1 from /home/bocchi/.config/discord/0.0.34/modules/pending/discord_desktop_core-1.zip
+2023-11-07T05:58:48.769Z [Modules] Installing discord_erlpack@1 from /home/bocchi/.config/discord/0.0.34/modules/pending/discord_erlpack-1.zip
+2023-11-07T05:58:48.806Z [Modules] Installing discord_spellcheck@1 from /home/bocchi/.config/discord/0.0.34/modules/pending/discord_spellcheck-1.zip
+2023-11-07T05:58:49.249Z [Modules] Installing discord_utils@1 from /home/bocchi/.config/discord/0.0.34/modules/pending/discord_utils-1.zip
+2023-11-07T05:58:49.386Z [Modules] Installing discord_voice@1 from /home/bocchi/.config/discord/0.0.34/modules/pending/discord_voice-1.zip
+2023-11-07T05:58:49.871Z [Modules] Finished module installations. [success: 5] [failure: 0]
+2023-11-07T05:58:49.871Z [Modules] Checking for host updates.
+2023-11-07T05:58:50.127Z [Modules] Host is up to date.
+2023-11-07T05:58:50.127Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-11-07T05:58:50.129Z [Modules] No module updates available.
+2023-11-07T05:58:51.619Z [Modules] Starting to install discord_krisp...
+2023-11-07T05:58:51.619Z [Modules] Fetching discord_krisp@1 from https://discord.com/api/modules/stable/discord_krisp/1
+2023-11-07T05:58:51.619Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip
+2023-11-07T05:58:51.625Z [Modules] Starting to install discord_game_utils...
+2023-11-07T05:58:52.121Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 1%
+2023-11-07T05:58:52.293Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 2%
+2023-11-07T05:58:52.356Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 3%
+2023-11-07T05:58:52.357Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 4%
+2023-11-07T05:58:52.415Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 5%
+2023-11-07T05:58:52.489Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 6%
+2023-11-07T05:58:52.570Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 7%
+2023-11-07T05:58:52.620Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 8%
+2023-11-07T05:58:52.660Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 9%
+2023-11-07T05:58:52.670Z [Modules] Checking for host updates.
+2023-11-07T05:58:52.708Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 10%
+2023-11-07T05:58:52.734Z [Modules] Starting to install discord_rpc...
+2023-11-07T05:58:52.752Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 11%
+2023-11-07T05:58:52.793Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 12%
+2023-11-07T05:58:52.849Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 13%
+2023-11-07T05:58:52.912Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 14%
+2023-11-07T05:58:52.965Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 15%
+2023-11-07T05:58:53.139Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 18%
+2023-11-07T05:58:53.141Z [Modules] Host is up to date.
+2023-11-07T05:58:53.141Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-11-07T05:58:53.143Z [Modules] No module updates available.
+2023-11-07T05:58:53.191Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 19%
+2023-11-07T05:58:53.230Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 20%
+2023-11-07T05:58:53.272Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 21%
+2023-11-07T05:58:53.315Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 22%
+2023-11-07T05:58:53.359Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 23%
+2023-11-07T05:58:53.405Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 24%
+2023-11-07T05:58:53.440Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 25%
+2023-11-07T05:58:53.495Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 26%
+2023-11-07T05:58:53.540Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 27%
+2023-11-07T05:58:53.607Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 28%
+2023-11-07T05:58:53.664Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 29%
+2023-11-07T05:58:53.717Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 30%
+2023-11-07T05:58:53.759Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 31%
+2023-11-07T05:58:53.805Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 32%
+2023-11-07T05:58:53.889Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 33%
+2023-11-07T05:58:53.929Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 34%
+2023-11-07T05:58:53.978Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 35%
+2023-11-07T05:58:54.154Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 36%
+2023-11-07T05:58:54.209Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 37%
+2023-11-07T05:58:54.231Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 38%
+2023-11-07T05:58:54.280Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 39%
+2023-11-07T05:58:54.281Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 40%
+2023-11-07T05:58:54.284Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 41%
+2023-11-07T05:58:54.332Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 42%
+2023-11-07T05:58:54.381Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 43%
+2023-11-07T05:58:54.428Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 44%
+2023-11-07T05:58:54.464Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 45%
+2023-11-07T05:58:54.521Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 46%
+2023-11-07T05:58:54.577Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 47%
+2023-11-07T05:58:54.620Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 48%
+2023-11-07T05:58:54.668Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 49%
+2023-11-07T05:58:54.708Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 50%
+2023-11-07T05:58:54.745Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 51%
+2023-11-07T05:58:54.800Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 52%
+2023-11-07T05:58:54.860Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 53%
+2023-11-07T05:58:54.902Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 54%
+2023-11-07T05:58:54.945Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 55%
+2023-11-07T05:58:54.997Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 56%
+2023-11-07T05:58:55.046Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 57%
+2023-11-07T05:58:55.086Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 58%
+2023-11-07T05:58:55.157Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 59%
+2023-11-07T05:58:55.212Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 60%
+2023-11-07T05:58:55.259Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 61%
+2023-11-07T05:58:55.313Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 62%
+2023-11-07T05:58:55.351Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 63%
+2023-11-07T05:58:55.392Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 64%
+2023-11-07T05:58:55.457Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 65%
+2023-11-07T05:58:55.520Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 66%
+2023-11-07T05:58:55.566Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 67%
+2023-11-07T05:58:55.616Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 68%
+2023-11-07T05:58:55.671Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 69%
+2023-11-07T05:58:55.712Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 70%
+2023-11-07T05:58:55.765Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 71%
+2023-11-07T05:58:55.801Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 72%
+2023-11-07T05:58:55.854Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 73%
+2023-11-07T05:58:55.894Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 74%
+2023-11-07T05:58:55.949Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 75%
+2023-11-07T05:58:55.995Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 76%
+2023-11-07T05:58:56.037Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 77%
+2023-11-07T05:58:56.083Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 78%
+2023-11-07T05:58:56.138Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 79%
+2023-11-07T05:58:56.175Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 80%
+2023-11-07T05:58:56.215Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 81%
+2023-11-07T05:58:56.373Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 82%
+2023-11-07T05:58:56.409Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 83%
+2023-11-07T05:58:56.504Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 84%
+2023-11-07T05:58:56.504Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 85%
+2023-11-07T05:58:56.504Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 86%
+2023-11-07T05:58:56.537Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 88%
+2023-11-07T05:58:56.569Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 89%
+2023-11-07T05:58:56.621Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 90%
+2023-11-07T05:58:56.668Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 91%
+2023-11-07T05:58:56.721Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 92%
+2023-11-07T05:58:56.767Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 93%
+2023-11-07T05:58:56.807Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 94%
+2023-11-07T05:58:56.855Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 95%
+2023-11-07T05:58:56.892Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 96%
+2023-11-07T05:58:56.948Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 97%
+2023-11-07T05:58:57.003Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 98%
+2023-11-07T05:58:57.054Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 99%
+2023-11-07T05:58:57.103Z [Modules] Streaming discord_krisp@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip: 100%
+2023-11-07T05:58:57.104Z [Modules] Fetching discord_game_utils@1 from https://discord.com/api/modules/stable/discord_game_utils/1
+2023-11-07T05:58:57.104Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip
+2023-11-07T05:58:57.104Z [Modules] Installing discord_krisp@1 from /home/bocchi/.config/discord/0.0.34/modules/pending/discord_krisp-1.zip
+2023-11-07T05:58:57.394Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 1%
+2023-11-07T05:58:57.399Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 2%
+2023-11-07T05:58:57.409Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 3%
+2023-11-07T05:58:57.411Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 4%
+2023-11-07T05:58:57.418Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2023-11-07T05:58:57.423Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 5%
+2023-11-07T05:58:57.431Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 8%
+2023-11-07T05:58:57.436Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 9%
+2023-11-07T05:58:57.440Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 10%
+2023-11-07T05:58:57.452Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 11%
+2023-11-07T05:58:57.454Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 12%
+2023-11-07T05:58:57.468Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 14%
+2023-11-07T05:58:57.483Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 17%
+2023-11-07T05:58:57.484Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 18%
+2023-11-07T05:58:57.500Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 20%
+2023-11-07T05:58:57.503Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 22%
+2023-11-07T05:58:57.509Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 23%
+2023-11-07T05:58:57.518Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 25%
+2023-11-07T05:58:57.524Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 26%
+2023-11-07T05:58:57.539Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 28%
+2023-11-07T05:58:57.545Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 29%
+2023-11-07T05:58:57.557Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 31%
+2023-11-07T05:58:57.566Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 33%
+2023-11-07T05:58:57.569Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 35%
+2023-11-07T05:58:57.581Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 36%
+2023-11-07T05:58:57.584Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 38%
+2023-11-07T05:58:57.602Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 39%
+2023-11-07T05:58:57.606Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 40%
+2023-11-07T05:58:57.612Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 41%
+2023-11-07T05:58:57.626Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 42%
+2023-11-07T05:58:57.628Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 43%
+2023-11-07T05:58:57.637Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 44%
+2023-11-07T05:58:57.640Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 46%
+2023-11-07T05:58:57.658Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 48%
+2023-11-07T05:58:57.666Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 49%
+2023-11-07T05:58:57.674Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 51%
+2023-11-07T05:58:57.687Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 53%
+2023-11-07T05:58:57.699Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 56%
+2023-11-07T05:58:57.702Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 57%
+2023-11-07T05:58:57.719Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 59%
+2023-11-07T05:58:57.725Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 60%
+2023-11-07T05:58:57.738Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 61%
+2023-11-07T05:58:57.745Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 64%
+2023-11-07T05:58:57.764Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 66%
+2023-11-07T05:58:57.767Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 67%
+2023-11-07T05:58:57.768Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 68%
+2023-11-07T05:58:57.780Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 69%
+2023-11-07T05:58:57.794Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 71%
+2023-11-07T05:58:57.808Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 73%
+2023-11-07T05:58:57.808Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 74%
+2023-11-07T05:58:57.817Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 75%
+2023-11-07T05:58:57.819Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 76%
+2023-11-07T05:58:57.825Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 77%
+2023-11-07T05:58:57.835Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 79%
+2023-11-07T05:58:57.839Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 80%
+2023-11-07T05:58:57.853Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 82%
+2023-11-07T05:58:57.866Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 83%
+2023-11-07T05:58:57.867Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 84%
+2023-11-07T05:58:57.869Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 85%
+2023-11-07T05:58:57.883Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 88%
+2023-11-07T05:58:57.892Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 89%
+2023-11-07T05:58:57.897Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 91%
+2023-11-07T05:58:57.914Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 94%
+2023-11-07T05:58:57.917Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 95%
+2023-11-07T05:58:57.920Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 96%
+2023-11-07T05:58:57.937Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 98%
+2023-11-07T05:58:57.948Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 99%
+2023-11-07T05:58:57.954Z [Modules] Streaming discord_game_utils@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip: 100%
+2023-11-07T05:58:57.955Z [Modules] Fetching discord_rpc@1 from https://discord.com/api/modules/stable/discord_rpc/1
+2023-11-07T05:58:57.955Z [Modules] Streaming discord_rpc@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_rpc-1.zip
+2023-11-07T05:58:57.955Z [Modules] Installing discord_game_utils@1 from /home/bocchi/.config/discord/0.0.34/modules/pending/discord_game_utils-1.zip
+2023-11-07T05:58:57.997Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2023-11-07T05:58:58.243Z [Modules] Streaming discord_rpc@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_rpc-1.zip: 38%
+2023-11-07T05:58:58.247Z [Modules] Streaming discord_rpc@1 to /home/bocchi/.config/discord/0.0.34/modules/pending/discord_rpc-1.zip: 100%
+2023-11-07T05:58:58.248Z [Modules] Finished module downloads. [success: 3] [failure: 0]
+2023-11-07T05:58:58.248Z [Modules] Installing discord_rpc@1 from /home/bocchi/.config/discord/0.0.34/modules/pending/discord_rpc-1.zip
+2023-11-07T05:58:58.264Z [Modules] Finished module installations. [success: 1] [failure: 0]
+2023-11-07T07:04:11.446Z [Modules] Modules initializing
+2023-11-07T07:04:11.446Z [Modules] Distribution: remote
+2023-11-07T07:04:11.446Z [Modules] Host updates: enabled
+2023-11-07T07:04:11.446Z [Modules] Module updates: enabled
+2023-11-07T07:04:11.446Z [Modules] Module install path: /home/bocchi/.config/discord/0.0.34/modules
+2023-11-07T07:04:11.447Z [Modules] Module installed file path: /home/bocchi/.config/discord/0.0.34/modules/installed.json
+2023-11-07T07:04:11.447Z [Modules] Module download path: /home/bocchi/.config/discord/0.0.34/modules/pending
+2023-11-07T07:04:11.690Z [Modules] No updates to install
+2023-11-07T07:04:11.691Z [Modules] Checking for host updates.
+2023-11-07T07:04:12.193Z [Modules] Host is up to date.
+2023-11-07T07:04:12.193Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-11-07T07:04:12.315Z [Modules] No module updates available.
+2023-11-07T07:04:14.381Z [Modules] Checking for host updates.
+2023-11-07T07:04:14.751Z [Modules] Host is up to date.
+2023-11-07T07:04:14.751Z [Modules] Checking for module updates at https://discord.com/api/modules/stable/versions.json
+2023-11-07T07:04:14.753Z [Modules] No module updates available.

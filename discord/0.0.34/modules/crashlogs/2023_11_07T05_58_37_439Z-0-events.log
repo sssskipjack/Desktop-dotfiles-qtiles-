@@ -1,0 +1,36 @@
+2023-11-07T05:58:37.448Z 0: 
+
+----------------------------------------------
+2023-11-07T05:58:37.460Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.34"}, modulepath: /home/bocchi/.config/discord/0.0.34/modules
+2023-11-07T05:58:37.464Z 2: ✅ webContents.created web1 ""
+2023-11-07T05:58:37.467Z 3: ✅ window.created win1 "discord"
+2023-11-07T05:58:37.742Z 4: ✅ webContents.did-finish-load web1
+2023-11-07T05:58:50.201Z 5: ✅ webContents.created web2 ""
+2023-11-07T05:58:50.208Z 6: ✅ window.created win2 "Discord"
+2023-11-07T05:58:52.908Z 7: ✅ webContents.did-finish-load web2
+2023-11-07T05:58:53.008Z 8: window.close win1
+2023-11-07T05:58:53.142Z 9: webContents.destroyed web1
+2023-11-07T05:58:53.144Z 10: window.closed win1
+2023-11-07T06:13:03.842Z 11: window.close win2
+2023-11-07T07:04:11.490Z 0: 
+
+----------------------------------------------
+2023-11-07T07:04:11.510Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.34"}, modulepath: /home/bocchi/.config/discord/0.0.34/modules
+2023-11-07T07:04:11.515Z 2: ✅ webContents.created web1 ""
+2023-11-07T07:04:11.518Z 3: ✅ window.created win1 "discord"
+2023-11-07T07:04:11.784Z 4: ✅ webContents.did-finish-load web1
+2023-11-07T07:04:12.387Z 5: ✅ webContents.created web2 ""
+2023-11-07T07:04:12.394Z 6: ✅ window.created win2 "Discord"
+2023-11-07T07:04:14.524Z 7: ✅ webContents.did-finish-load web2
+2023-11-07T07:04:14.624Z 8: window.close win1
+2023-11-07T07:04:14.628Z 9: webContents.destroyed web1
+2023-11-07T07:04:14.630Z 10: window.closed win1
+2023-11-07T07:04:48.820Z 0: 
+
+----------------------------------------------
+2023-11-07T07:04:48.829Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.34"}, modulepath: /home/bocchi/.config/discord/0.0.34/modules
+2023-11-07T07:11:22.055Z 11: window.close win2
+2023-11-07T07:11:57.003Z 0: 
+
+----------------------------------------------
+2023-11-07T07:11:57.013Z 1: Discord starting: {"releaseChannel":"stable","version":"0.0.34"}, modulepath: /home/bocchi/.config/discord/0.0.34/modules

@@ -24,35 +24,35 @@
             "backupPath": "/home/bocchi/.config/Code - OSS/Backups/faddec63db0ded3189003c99e3f38381",
             "uiState": {
                 "mode": 1,
-                "x": 0,
+                "x": 960,
                 "y": 624,
-                "width": 952,
-                "height": 1048
+                "width": 956,
+                "height": 1052
             }
         },
         "openedWindows": []
     },
     "theme": "vs-dark",
-    "themeBackground": "#2c2d34",
+    "themeBackground": "#212121",
     "windowSplash": {
         "zoomLevel": 0,
         "baseTheme": "vs-dark",
         "colorInfo": {
-            "foreground": "#bbbbbb",
-            "background": "#2c2d34",
-            "editorBackground": "#2c2d34",
-            "titleBarBackground": "#25262b",
-            "activityBarBackground": "#292a30",
-            "sideBarBackground": "#2c2d34",
-            "statusBarBackground": "#578cda",
-            "statusBarNoFolderBackground": "#578cda"
+            "foreground": "#eeffff",
+            "background": "#212121",
+            "editorBackground": "#212121",
+            "titleBarBackground": "#212121",
+            "activityBarBackground": "#212121",
+            "sideBarBackground": "#212121",
+            "statusBarBackground": "#212121",
+            "statusBarNoFolderBackground": "#212121"
         },
         "layoutInfo": {
             "sideBarSide": "left",
             "editorPartMinWidth": 220,
             "titleBarHeight": 0,
             "activityBarWidth": 48,
-            "sideBarWidth": 238,
+            "sideBarWidth": 0,
             "statusBarHeight": 22,
             "windowBorder": false
         }
@@ -95,7 +95,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -180,6 +181,13 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
+                                {
+                                    "id": "github.copyVscodeDevLinkFile",
+                                    "label": "Copy vscode.dev Link"
+                                },
+                                {
+                                    "id": "vscode.menubar.separator"
+                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -504,8 +512,7 @@
                                 },
                                 {
                                     "id": "workbench.action.toggleSidebarVisibility",
-                                    "label": "&&Primary Side Bar",
-                                    "checked": true
+                                    "label": "&&Primary Side Bar"
                                 },
                                 {
                                     "id": "workbench.action.toggleAuxiliaryBar",
@@ -792,7 +799,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"

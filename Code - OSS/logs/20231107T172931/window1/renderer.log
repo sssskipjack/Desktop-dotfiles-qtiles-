@@ -1,0 +1,2 @@
+2023-11-07 17:29:35.135 [info] [perf] Render performance baseline is 23ms
+2023-11-07 17:32:57.765 [error] [text file model] handleSaveError(19) - exit - resulted in a save error: Error: Unable to write file '/home/bocchi/.config/qtile/config.py' (Error: File Modified Since) file:///home/bocchi/.config/qtile/config.py
