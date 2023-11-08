@@ -1,0 +1,42 @@
+[urgency_low]
+background = "#f5f5dc"  # Beige
+foreground = "#1a1a1a"  # Dark
+timeout = 2
+
+[urgency_normal]
+background = "#c6c6c6"  # Light
+foreground = "#1a1a1a"  # Dark
+timeout = 5
+
+[urgency_critical]
+background = "#e06c4d"  # Orange
+foreground s "#f5f5dc"  # Beige
+timeout = 0
+
+# Global frame settings
+frame_color = "#a4a4a4"  # Accent
+frame_width = 1
+
+# Separators are disabled by default.
+separator_color = "#c6c6c6"  # Light
+
+# Define the icon size
+icon_size = 32
+
+# Geometry: "width-height+x+y"
+geometry = "300x5-30+50"
+
+# Translucent background
+transparency = 20  # 20% transparency
+
+# Set the font. Adjust the font to match your "NieR:Automata" theme
+font = "RodinPro-DB Bold 11"
+
+# Misc settings:
+# Adjust these to your liking
+padding = 10
+horizontal_padding = 10
+vertical_padding = 5
+
+# Assign the correct paths to the icons for applications
+#icon_folders = /usr/share/icons/hicolor/16x16/apps:/usr/share/icons/hicolor/24x24/apps

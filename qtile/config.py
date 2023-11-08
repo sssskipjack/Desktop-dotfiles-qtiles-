@@ -11,6 +11,7 @@ colors = {
     "dark": "#1a1a1a",
     "light": "#c6c6c6",
     "accent": "#a4a4a4",
+    "accent2": "#46433a",
     "beige": "#f5f5dc",
     "orange": "#e06c4d"
 }
@@ -52,7 +53,7 @@ keys = [
 
 
     # Snipping tool functionality
-    Key([mod, "shift"], "s", lazy.spawn("maim -s | xclip -selection clipboard -t image/png")),
+    Key([mod, "shift"], "s", lazy.spawn("sh -c 'maim -s | xclip -selection clipboard -t image/png'")),
     
     # Volume control with pactl (PulseAudio)
     Key([], "XF86AudioRaiseVolume", lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ +5%")),
@@ -110,70 +111,53 @@ keys = [
     Key([mod], "r", lazy.spawncmd(), desc="Spawn a command using a prompt widget"),
 
 ]
+# Kanji characters for display
+kanji_display = ["一", "二", "三", "四", "五", "六", "七", "八", "九", "十"]
 
-groups = [Group(i) for i in "1234567890"]
+# Group definitions with Kanji display names
+groups = [Group(i[1], label=i[1]) for i in zip("1234567890", kanji_display)]
+for i, group in enumerate(groups):
+    actual_key = str(i + 1) if i < 9 else "0"
+    keys.extend([
+        # Switch to group
+        Key([mod], actual_key, lazy.group[group.name].toscreen(),
+            desc="Switch to group {}".format(group.name)),
+        # Move window to group and switch to it
+        Key([mod, "shift"], actual_key, lazy.window.togroup(group.name),
+            desc="Move focused window to group {}".format(group.name)),
+    ])
 
-for i in groups:
-    keys.extend(
-        [
-            # mod1 + letter of group = switch to group
-            Key(
-                [mod],
-                i.name,
-                lazy.group[i.name].toscreen(),
-                desc="Switch to group {}".format(i.name),
-            ),
-            # mod1 + shift + letter of group = switch to & move focused window to group
-            # Key(
-            #     [mod, "shift"],
-            #     i.name,
-            #     lazy.window.togroup(i.name, switch_group=True),
-            #     desc="Switch to & move focused window to group {}".format(i.name),
-            # ),
-            # Or, use below if you prefer not to switch to that group.
-            # mod1 + shift + letter of group = move focused window to group
-            Key([mod, "shift"], i.name, lazy.window.togroup(i.name),
-                 desc="move focused window to group {}".format(i.name)),
-        ]
-    )
 
+
+
+borders = dict(
+    border_focus=colors["accent2"],  # Active window border color
+    border_normal=colors["accent"],     # Inactive window border color
+    border_width=3,
+)
 layouts = [
-    layout.Columns(
-        border_focus=colors["accent"],  # Active window border color
-        border_normal=colors["beige"],     # Inactive window border color
-        border_width=3
-    ),
-    layout.Max(
-        border_focus=colors["accent"],  # Active window border color
-        border_normal=colors["beige"],     # Inactive window border color
-        border_width=3
-
-    ),
-    layout.Floating(
-        border_focus=colors["accent"],  # Active window border color
-        border_normal=colors["beige"],     # Inactive window border color
-        float_rules=[
-            # ... existing rules ...
-        ]
-    ),
+    layout.Columns(**borders),
+    layout.Max(**borders),
+    layout.Floating(**borders),
 
     # Try more layouts by unleashing below layouts.
-    # layout.Stack(num_stacks=2),
-    # layout.Bsp(),
-    # layout.Matrix(),
-    # layout.MonadTall(),
-    # layout.MonadWide(),
-    # layout.RatioTile(),
-    # layout.Tile(),
-    # layout.TreeTab(),
-    # layout.VerticalTile(),
-    # layout.Zoomy(),
+    layout.Stack(**borders, num_stacks=2),
+    layout.Bsp(**borders),
+    layout.Matrix(**borders),
+    layout.MonadTall(**borders),
+    layout.MonadWide(**borders),
+    layout.RatioTile(**borders),
+    layout.Tile(**borders),
+    layout.TreeTab(**borders),
+    layout.VerticalTile(**borders),
+    layout.Zoomy(**borders),
 ]
 
 widget_defaults = dict(
-    font = "UbuntuMonoNerdFontMono",
+    font = "FOT-Rodin Pro DB",
+    #font = "UbuntuMonoNerdFontMono",
     fontsize=12,
-    padding=3,
+    padding=8,
 )
 extension_defaults = widget_defaults.copy()
 
@@ -182,12 +166,21 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.CurrentLayout(foreground=colors["orange"]),
-                widget.GroupBox(active=colors["orange"]),
-                widget.Prompt(),
-                widget.WindowName(foreground=colors["light"]),
+                # widget.CurrentLayout(foreground=colors["dark"]),
+                widget.GroupBox(active=colors["orange"],
+                                borderwidth = 3,
+                                highlight_color = colors["beige"],
+                                highlight_method="line",
+                                other_screen_border=colors["accent2"],
+                                other_current_screen_border=colors["accent2"],
+                                this_screen_border=colors["orange"],
+                                this_current_screen_border=colors["orange"],
+
+                                ),
+                                
+                widget.Spacer(),
                 widget.Systray(),
-                widget.Clock(format='%Y-%m-%d %a %I:%M %p', foreground=colors["orange"]),
+                widget.Clock(format='%Y-%m-%d %a %I:%M %p', foreground=colors["dark"]),
             ],
             24,  # This is the height of the top bar. Adjust as needed.
             background=colors["beige"],  # Beige background color
@@ -199,12 +192,20 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.CurrentLayout(foreground=colors["orange"]),
-                widget.GroupBox(active=colors["orange"]),
-                widget.Prompt(),
-                widget.WindowName(foreground=colors["light"]),
-                widget.Systray(),
-                widget.Clock(format='%Y-%m-%d %a %I:%M %p', foreground=colors["orange"]),
+                # widget.CurrentLayout(foreground=colors["dark"]),
+                widget.GroupBox(active=colors["orange"],
+                                borderwidth = 3,
+                                highlight_color = colors["beige"],
+                                highlight_method="line",
+                                other_screen_border=colors["accent2"],
+                                other_current_screen_border=colors["accent2"],
+                                this_screen_border=colors["orange"],
+                                this_current_screen_border=colors["orange"],
+
+                                ),
+                                
+                widget.Spacer(),
+                widget.Clock(format='%Y-%m-%d %a %I:%M %p', foreground=colors["dark"]),
             ],
             24,  # This is the width of the vertical bar. Adjust as needed.
             background=colors["beige"],  # Beige background color
@@ -254,6 +255,6 @@ auto_minimize = True
 wl_input_rules = None
 
 
-wmname = "LG3D"
+wmname = "NAVI"
 
 
