@@ -7,13 +7,21 @@ from libqtile import hook
 import subprocess
 import os
 
-
+colors = {
+    "dark": "#1a1a1a",
+    "light": "#c6c6c6",
+    "accent": "#a4a4a4",
+    "beige": "#f5f5dc",
+    "orange": "#e06c4d"
+}
 
 @hook.subscribe.startup_once
 def autostart():
     xrandr_start()
     picom_start()
-    
+    subprocess.Popen(['xsetroot', '-cursor_name', 'theme-name'])
+
+
     
 def picom_start():
     home = os.path.expanduser('~')  # Expands the '~' to the full home directory path
@@ -42,6 +50,10 @@ keys = [
     # A list of available commands that can be bound to keys can be found
     # at https://docs.qtile.org/en/latest/manual/config/lazy.html
 
+
+    # Snipping tool functionality
+    Key([mod, "shift"], "s", lazy.spawn("maim -s | xclip -selection clipboard -t image/png")),
+    
     # Volume control with pactl (PulseAudio)
     Key([], "XF86AudioRaiseVolume", lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ +5%")),
     Key([], "XF86AudioLowerVolume", lazy.spawn("pactl set-sink-volume @DEFAULT_SINK@ -5%")),
@@ -99,7 +111,7 @@ keys = [
 
 ]
 
-groups = [Group(i) for i in "123456789"]
+groups = [Group(i) for i in "1234567890"]
 
 for i in groups:
     keys.extend(
@@ -127,19 +139,19 @@ for i in groups:
 
 layouts = [
     layout.Columns(
-        border_focus=cream,  # Active window border color
-        border_normal=black,     # Inactive window border color
-        border_width=2
+        border_focus=colors["accent"],  # Active window border color
+        border_normal=colors["beige"],     # Inactive window border color
+        border_width=3
     ),
     layout.Max(
-        border_focus=cream,  # Active window border color
-        border_normal=cream,     # Inactive window border color
-        border_width=2
+        border_focus=colors["accent"],  # Active window border color
+        border_normal=colors["beige"],     # Inactive window border color
+        border_width=3
 
     ),
     layout.Floating(
-        border_focus=neonpink,  # Active window border color
-        border_normal=gray,     # Inactive window border color
+        border_focus=colors["accent"],  # Active window border color
+        border_normal=colors["beige"],     # Inactive window border color
         float_rules=[
             # ... existing rules ...
         ]
@@ -159,7 +171,7 @@ layouts = [
 ]
 
 widget_defaults = dict(
-    font="sans",
+    font = "UbuntuMonoNerdFontMono",
     fontsize=12,
     padding=3,
 )
@@ -170,32 +182,37 @@ screens = [
     Screen(
         top=bar.Bar(
             [
-                widget.CurrentLayout(),
-                widget.GroupBox(),
+                widget.CurrentLayout(foreground=colors["orange"]),
+                widget.GroupBox(active=colors["orange"]),
                 widget.Prompt(),
-                widget.WindowName(),
-                widget.PulseVolume(),
-                widget.Clock(format='%Y-%m-%d %a %I:%M %p'),
+                widget.WindowName(foreground=colors["light"]),
                 widget.Systray(),
+                widget.Clock(format='%Y-%m-%d %a %I:%M %p', foreground=colors["orange"]),
             ],
             24,  # This is the height of the top bar. Adjust as needed.
+            background=colors["beige"],  # Beige background color
+            opacity=0.9
         ),
-        wallpaper='/home/bocchi/.config/qtile/pictures/remSleeping.jpg',
-        wallpaper_mode='fill',
+        wallpaper='/home/bocchi/.config/qtile/pictures/2BL.png',
+        wallpaper_mode='fill'
     ),
     Screen(
         top=bar.Bar(
             [
-                widget.CurrentLayout(),
-                widget.GroupBox(),
-                widget.WindowName(),
-                # widget.Clock(format='%Y-%m-%d %a %I:%M %p'),
+                widget.CurrentLayout(foreground=colors["orange"]),
+                widget.GroupBox(active=colors["orange"]),
+                widget.Prompt(),
+                widget.WindowName(foreground=colors["light"]),
+                widget.Systray(),
+                widget.Clock(format='%Y-%m-%d %a %I:%M %p', foreground=colors["orange"]),
             ],
             24,  # This is the width of the vertical bar. Adjust as needed.
-            vertical=True,
+            background=colors["beige"],  # Beige background color
+            opacity=0.9,
+            vertical=True
         ),
-        wallpaper='/home/bocchi/.config/qtile/pictures/remSleeping.jpg',
-        wallpaper_mode='fill',
+        wallpaper='/home/bocchi/.config/qtile/pictures/2BP.png',
+        wallpaper_mode='fill'
     )
 ]
 
@@ -240,17 +257,3 @@ wl_input_rules = None
 wmname = "LG3D"
 
 
-black = "#000000"
-white = "#ffffff"
-cream = "#fffdd4"
-gray = "#242424"
-
-neonpink = "#ff0099"
-pastelpink = "#ff8ad0"
-
-neonpurple = "#9305ff"
-pastelpurple = "#bc82ff"
-
-pastelblue = "#a1f6ff"
-
-neonyellow = "#e5ff00"
