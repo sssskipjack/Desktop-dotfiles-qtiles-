@@ -10,7 +10,7 @@ import os
 colors = {
     "dark": "#1a1a1a",
     "light": "#c6c6c6",
-    "accent": "#a4a4a4",
+    "accent": "#c4c0a8",
     "accent2": "#46433a",
     "beige": "#f5f5dc",
     "orange": "#e06c4d"
@@ -161,15 +161,31 @@ widget_defaults = dict(
 )
 extension_defaults = widget_defaults.copy()
 
+# Custom Function
+class MyClock(widget.Clock):
+    def __init__(self, **config):
+        self.display_date = False
+        super().__init__(**config)
+
+    def button_press(self, x, y, button):
+        if button == 1:  # Left mouse button
+            self.display_date = not self.display_date
+            self.update_format()
+
+    def update_format(self):
+        self.format = '%H:%M' if not self.display_date else '%d/%m/%y'
+        self.tick()
 
 screens = [
     Screen(
-        top=bar.Bar(
+        bottom=bar.Bar(
             [
-                # widget.CurrentLayout(foreground=colors["dark"]),
+                # widget.CurrentLayout(foreground=colorss["dark"]),
+                widget.PulseVolume(),
+                widget.Spacer(),
                 widget.GroupBox(active=colors["orange"],
                                 borderwidth = 3,
-                                highlight_color = colors["beige"],
+                                highlight_color = colors["accent"],
                                 highlight_method="line",
                                 other_screen_border=colors["accent2"],
                                 other_current_screen_border=colors["accent2"],
@@ -180,22 +196,28 @@ screens = [
                                 
                 widget.Spacer(),
                 widget.Systray(),
-                widget.Clock(format='%Y-%m-%d %a %I:%M %p', foreground=colors["dark"]),
+                MyClock(
+                    format='%H:%M',  # initial format
+                    foreground=colors["accent2"],
+                    font="Fantasque Sans Mono",
+                    fontsize=13,
+                ),
             ],
-            24,  # This is the height of the top bar. Adjust as needed.
-            background=colors["beige"],  # Beige background color
+            28,  # This is the height of the top bar. Adjust as needed.
+            background=colors["accent"],  # Beige background color
             opacity=0.9
         ),
         wallpaper='/home/bocchi/.config/qtile/pictures/2BL.png',
         wallpaper_mode='fill'
     ),
     Screen(
-        top=bar.Bar(
+        bottom=bar.Bar(
             [
-                # widget.CurrentLayout(foreground=colors["dark"]),
-                widget.GroupBox(active=colors["orange"],
+                widget.PulseVolume(),
+                widget.Spacer(),
+                widget.GroupBox(active=colors["accent"],
                                 borderwidth = 3,
-                                highlight_color = colors["beige"],
+                                highlight_color = colors["accent"],
                                 highlight_method="line",
                                 other_screen_border=colors["accent2"],
                                 other_current_screen_border=colors["accent2"],
@@ -205,10 +227,15 @@ screens = [
                                 ),
                                 
                 widget.Spacer(),
-                widget.Clock(format='%Y-%m-%d %a %I:%M %p', foreground=colors["dark"]),
+                widget.Systray(),
+                widget.Clock(format='%Y-%m-%d %a %I:%M %p',
+                             foreground=colors["dark"],
+                             font = "FOT-Rodin Pro DB",
+                             
+                             )
             ],
-            24,  # This is the width of the vertical bar. Adjust as needed.
-            background=colors["beige"],  # Beige background color
+            28,  # This is the width of the vertical bar. Adjust as needed.
+            background=colors["accent"],  # Beige background color
             opacity=0.9,
             vertical=True
         ),
@@ -216,6 +243,7 @@ screens = [
         wallpaper_mode='fill'
     )
 ]
+
 
 
 # Drag floating layouts.
