@@ -4,6 +4,7 @@ from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
 from libqtile import hook
+from copy import deepcopy
 import subprocess
 import os
 
@@ -20,6 +21,7 @@ colors = {
 def autostart():
     xrandr_start()
     picom_start()
+    subprocess.Popen(['redshift'])
     subprocess.Popen(['xsetroot', '-cursor_name', 'theme-name'])
 
 
@@ -137,21 +139,9 @@ borders = dict(
 )
 layouts = [
     layout.Columns(**borders),
-    layout.Max(**borders),
-    layout.Floating(**borders),
-
-    # Try more layouts by unleashing below layouts.
-    layout.Stack(**borders, num_stacks=2),
-    layout.Bsp(**borders),
-    layout.Matrix(**borders),
-    layout.MonadTall(**borders),
-    layout.MonadWide(**borders),
-    layout.RatioTile(**borders),
-    layout.Tile(**borders),
-    layout.TreeTab(**borders),
-    layout.VerticalTile(**borders),
-    layout.Zoomy(**borders),
 ]
+
+
 
 widget_defaults = dict(
     font = "FOT-Rodin Pro DB",
@@ -173,15 +163,22 @@ class MyClock(widget.Clock):
             self.update_format()
 
     def update_format(self):
-        self.format = '%H:%M' if not self.display_date else '%d/%m/%y'
+        self.format = '%H:%M' if not self.display_date else '%a %d/%m/%y'
         self.tick()
+
 
 screens = [
     Screen(
-        bottom=bar.Bar(
+        bottom = bar.Bar(
             [
                 # widget.CurrentLayout(foreground=colorss["dark"]),
-                widget.PulseVolume(),
+                widget.Volume(
+                    fmt='Vol: {}',
+                    foreground=colors["accent2"],
+                    font="Fantasque Sans Mono",
+                    fontsize=13,
+                    update_interval=0.1,
+                ),
                 widget.Spacer(),
                 widget.GroupBox(active=colors["orange"],
                                 borderwidth = 3,
@@ -206,16 +203,23 @@ screens = [
             28,  # This is the height of the top bar. Adjust as needed.
             background=colors["accent"],  # Beige background color
             opacity=0.9
-        ),
+        ), 
         wallpaper='/home/bocchi/.config/qtile/pictures/2BL.png',
         wallpaper_mode='fill'
     ),
     Screen(
-        bottom=bar.Bar(
+        bottom = bar.Bar(
             [
-                widget.PulseVolume(),
+                # widget.CurrentLayout(foreground=colorss["dark"]),
+                widget.Volume(
+                    fmt='Vol: {}',
+                    foreground=colors["accent2"],
+                    font="Fantasque Sans Mono",
+                    fontsize=13,
+                    update_interval=0.1,
+                ),
                 widget.Spacer(),
-                widget.GroupBox(active=colors["accent"],
+                widget.GroupBox(active=colors["orange"],
                                 borderwidth = 3,
                                 highlight_color = colors["accent"],
                                 highlight_method="line",
@@ -227,18 +231,18 @@ screens = [
                                 ),
                                 
                 widget.Spacer(),
-                widget.Systray(),
-                widget.Clock(format='%Y-%m-%d %a %I:%M %p',
-                             foreground=colors["dark"],
-                             font = "FOT-Rodin Pro DB",
-                             
-                             )
+                MyClock(
+                    format='%H:%M',  # initial format
+                    foreground=colors["accent2"],
+                    font="Fantasque Sans Mono",
+                    fontsize=13,
+                ),
             ],
-            28,  # This is the width of the vertical bar. Adjust as needed.
+            28,  # This is the height of the top bar. Adjust as needed.
             background=colors["accent"],  # Beige background color
             opacity=0.9,
             vertical=True
-        ),
+        ),  
         wallpaper='/home/bocchi/.config/qtile/pictures/2BP.png',
         wallpaper_mode='fill'
     )
