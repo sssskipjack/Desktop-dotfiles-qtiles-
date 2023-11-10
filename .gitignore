@@ -1,10 +1,12 @@
-qtile/pictures/
-discord/
-'Code - OSS'/
-yay/
-systemd/
-pulse/
-pavucontrol.ini
-Code/
-lutris/
-mimeapps.list
+*
+
+!.gitignore
+!dunst
+!kitty
+!neofetch
+!picom
+!qtile
+!rofi
+!Thunar
+!redshift.conf
+neofetch/rempng.png
