@@ -178,7 +178,7 @@ screens = [
                     fmt='Vol: {}',
                     foreground=colors["accent2"],
                     font="Fantasque Sans Mono",
-                    fontsize=13,
+                    fontsize=17,
                     update_interval=0.1,
                 ),
                 widget.Spacer(),
@@ -190,6 +190,7 @@ screens = [
                                 other_current_screen_border=colors["accent2"],
                                 this_screen_border=colors["orange"],
                                 this_current_screen_border=colors["orange"],
+                                fontsize = 15,
 
                                 ),
                                 
@@ -199,10 +200,10 @@ screens = [
                     format='%H:%M',  # initial format
                     foreground=colors["accent2"],
                     font="Fantasque Sans Mono",
-                    fontsize=13,
+                    fontsize=17,
                 ),
             ],
-            28,  # This is the height of the top bar. Adjust as needed.
+            40,  # This is the height of the top bar. Adjust as needed.
             background=colors["accent"],  # Beige background color
             opacity=0.9
         ), 
