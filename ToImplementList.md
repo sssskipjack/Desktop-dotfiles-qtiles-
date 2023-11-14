@@ -1,9 +1,6 @@
-Change Neofetch Colours
-Change Neofetch image
 
 optimize dunst
 
-Change rofi colours
 optimize rofi 
 
 optimize picom 
