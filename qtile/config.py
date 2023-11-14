@@ -4,7 +4,6 @@ from libqtile.config import Click, Drag, Group, Key, Match, Screen
 from libqtile.lazy import lazy
 from libqtile.utils import guess_terminal
 from libqtile import hook
-from copy import deepcopy
 import subprocess
 import os
 
@@ -80,8 +79,7 @@ keys = [
     Key([mod, "control"], "l", lazy.layout.grow_right(), desc="Grow window to the right"),
     Key([mod, "control"], "j", lazy.layout.grow_down(), desc="Grow window down"),
     Key([mod, "control"], "k", lazy.layout.grow_up(), desc="Grow window up"),
-    Key([mod], "n", lazy.layout.normalize(), desc="Reset all window sizes"),
-
+    Key([mod], "n", lazy.layout.normalize(), desc="Reset all window sizes")````
 
 
     Key([mod], "space", lazy.spawn("rofi -show drun"), desc="Rofi drun show"),
@@ -148,7 +146,7 @@ layouts = [
 widget_defaults = dict(
     font = "FOT-Rodin Pro DB",
     #font = "UbuntuMonoNerdFontMono",
-    fontsize=12,
+    fontsize=13,
     padding=8,
 )
 extension_defaults = widget_defaults.copy()
@@ -174,11 +172,11 @@ screens = [
         bottom = bar.Bar(
             [
                 # widget.CurrentLayout(foreground=colorss["dark"]),
-                widget.Volume(
+                widget.PulseVolume(
                     fmt='Vol: {}',
                     foreground=colors["accent2"],
                     font="Fantasque Sans Mono",
-                    fontsize=13,
+                    fontsize=17,
                     update_interval=0.1,
                 ),
                 widget.Spacer(),
@@ -190,6 +188,7 @@ screens = [
                                 other_current_screen_border=colors["accent2"],
                                 this_screen_border=colors["orange"],
                                 this_current_screen_border=colors["orange"],
+                                fontsize = 15,
 
                                 ),
                                 
@@ -199,10 +198,10 @@ screens = [
                     format='%H:%M',  # initial format
                     foreground=colors["accent2"],
                     font="Fantasque Sans Mono",
-                    fontsize=13,
+                    fontsize=17,
                 ),
             ],
-            28,  # This is the height of the top bar. Adjust as needed.
+            40,  # This is the height of the top bar. Adjust as needed.
             background=colors["accent"],  # Beige background color
             opacity=0.9
         ), 
